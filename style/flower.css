@@ -1,0 +1,118 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+</style>
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.banner.banner-text *{
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+.banner-text h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+button{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+}
+button:hover{
+    background: #d31e45;
+}
+.banner .banner-img{
+   width: 100%;
+   vertical-align:middle;
+}
+.section-heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.section-heading h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.featured{
+    padding: 100px 0;
+}
+.section-content{
+    display: flex;
+    justify-content: space-between;
+    gap:2px;
+    align-items: end;
+}
+.section-content .flower .flower-img{
+    background-color: #d89eaa;
+    border-radius: 300px 300px 0px 0px;
+    padding: 40px 25px 0 ;
+    display: flex;
+    align-items: end;
+   
+
+}
+.section-content .flower .flower-img img{
+    width: 100%;
+
+}
+
+.section-content .flower .pink{
+    background: rgba(167, 33, 98, 0.15);
+}
+.section-content .flower .blue{
+    background: rgba(5, 151, 160, 0.15);
+}
+.section-content .flower .green{
+background: rgba(71, 125, 17, 0.15);
+}
+.section-content .flower p{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
+}
